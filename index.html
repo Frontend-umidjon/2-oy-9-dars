@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <section>
+            <div class="container">
+                <nav class="navbar">
+                    <img class="nav__logo logotip" src="./images/logo.png" alt="">
+                    <ul class="nav__list">
+                        <li style="animation-delay: .5s;" class="nav__item nav"><a href="#">Home</a></li>
+                        <li style="animation-delay: .7s;" class="nav__item nav"><a href="#"><select class="select-bar"
+                                    name="properties" id="">
+                                    <option value="4">Properties</option>
+                                    <option value="0">Testimonial</option>
+                                    <option value="1">Service</option>
+                                    <option value="3"> 404 Page</option>
+                                </select></a></li>
+                        <li style="animation-delay: .9s;" class="nav__item nav"><a href="#">About</a></li>
+                        <li style="animation-delay: 1.1s;" class="nav__item nav"><a href="#">Contact</a></li>
+                        <li style="animation-delay: 1.3s;" class="nav__item nav"><a href="#"><img
+                                    src="./images/search.png" alt="">Search</a></li>
+                        <div class="nav__actions">
+                            <button class="nav__btn cart"><img src="./images/shopping_bag.png" alt="">Cart</button>
+                            <button class="nav__btn property">Find a property</button>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section>
+            <div class="hero">
+                <div class="hero__content hero-ani">
+                    <p class="hero-info">Find your dream place</p>
+                    <h2 class="hero__heading">Find house for your family in minutes</h2>
+                    <p class="hero__text">Aenean sodales mauris quis tellus facilisis, vel mattis magna. Interdum
+                        curabitur eget aliquam elit in mauris purus.</p>
+                    <div class="hero__actions">
+                        <form class="search-form" action="#" method="get">
+                            <img class="search__image" src="./images/search.png" alt="">
+                            <input class="search__text" type="text" name="search" placeholder="          Search">
+                            <input class="submit__btn" type="submit" name="search" value="Find a property ">
+                        </form>
+                    </div>
+
+                </div>
+                <img class="hero__image hero_img" src="./images/hero.png" alt="">
+
+            </div>
+        </section>
+    </header>
+    <main>
+        <section> 
+            <div  class="body__information">
+                <div data-aos="fade-down" class="body-info">
+                    <h1 class="body-info__heading">How it works</h1>
+                    <p class="body-info__text">Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id
+                        efficitur pellentesque. Maecenas varius felis felis.</p>
+                </div>
+                <div data-aos="fade-up"
+                data-aos-duration="3000" class="advantages">
+                    <div class="advantages-info">
+                        <div class="advantages-img">
+                            <img src="./images/house.png" alt="">
+                        </div>
+                        <h2 class="advantages-heading">Find property</h2>
+                        <p class="advantages-text">Odales mauris quis tellus facilisis, vel mattis magna interdum.
+                            Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non.</p>
+                    </div>
+                    <div data-aos="fade-up"
+                    data-aos-duration="3000" class="advantages-info">
+                        <div class="advantages-img">
+                            <img src="./images/receipt.png" alt="">
+                        </div>
+                        <h2 class="advantages-heading">Make a deal</h2>
+                        <p class="advantages-text">Pellentesque suscipit mauris. Nam dictum, erat a volutpat varius,
+                            urna nisi sollicitudin orci, sagittis facilisis odio tortor ac mi.</p>
+                    </div>
+                    <div data-aos="fade-up"
+                    data-aos-duration="3000" class="advantages-info">
+                        <div class="advantages-img">
+                            <img src="./images/key.png" alt="">
+                        </div>
+                        <h2 class="advantages-heading">Get your keys</h2>
+                        <p class="advantages-text">Nulla vel bibendum purus. Etiam tempus quam vel pulvinar rutrum. Duis
+                            semper, metus vitae fermentum consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section> 
+            <div  class="body-container">
+                <div data-aos="fade-right" class="body-container_content">
+                    <p class="body-container-info">
+                        Comfort first
+                    </p>
+                    <h1 class="body-container__heading">The best houses for family comfort</h1>
+                    <p class="body-container__text">
+                        Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin sollicitudin, lorem non posuere
+                        blandit.
+                    </p>
+                    <div class="body-container__actions">
+                        <button class="body-container__btn">
+                            Explore properties
+                        </button>
+                        <a href="" class="body-container__link">
+                            Contact agent >
+                        </a>
+                    </div>
+                </div>
+                <img data-aos="fade-left" src="./images/family.png" alt="" class="comfort-image">
+            </div>
+        </section>
+        <section>
+            <div class="body-container-2">
+                <img data-aos="fade-right"  src="./images/fastforward.png" alt="" class="forward-img">
+                <div data-aos="fade-left" class="body-container-2__content">
+                    <p class="body-container-info">
+                        Quick and Easy
+                    </p>
+                    <h1 class="body-container__heading secondh">Fast forward process</h1>
+                    <p class="body-container__text secondp">
+                        Ectus ipsum faucibus justo, et semper quam nisl in nibh. Proin sollicitudin, lorem non posuere
+                        blandit.
+                    </p>
+                    <div class="forward-adv">
+                        <div class="advantages-info second">
+                            <div class="advantages-img">
+                                <img src="./images/payments.png" alt="">
+                            </div>
+                            <h2 class="advantages-heading">Affordable prices</h2>
+                            <p class="advantages-text secondt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse varius enim in eros.</p>
+                        </div>
+                        <div class="advantages-info second">
+                            <div class="advantages-img">
+                                <img src="./images/description.png" alt="">
+                            </div>
+                            <h2 class="advantages-heading">Less paper work</h2>
+                            <p class="advantages-text thirdt">Curabitur porta luctus semper donec eget lobortis leo ac
+                                finibus nisi.</p>
+                        </div>
+                    </div>
+                    <div class="body-container__actions">
+                        <button class="body-container__btn">
+                            Explore properties
+                        </button>
+                        <a href="" class="body-container__link">
+                            Contact agent >
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <section>
+        <div class="favourite-body">
+            <div class="angle1">
+                <img src="./images/right-angle.svg" alt="">
+            </div>
+            <div class="favourite_content">
+                <p class="favourite-text">Properties</p>
+                <h2 class="favourite-heading">Houses in your favorite area</h2>
+            </div>
+            <div class="rec-line">
+                <div class="rec">
+                    <img src="./images/Los Angeles.png" alt="" class="rec__img">
+                    <div class="rec__content">
+                        <h2 class="rec__heading">Cozy studio in Los Angeles</h2>
+                        <p class="rec__price">$ 1,200.00 USD</p>
+                    </div>
+                    <img class="rec-loc__img" src="./images/place.svg" alt="">
+                    <a class="rec__link" href="#">2263 Southlea, Los Angeles</a>
+                    <div class="rec__info">
+                        <img src="./images/bathtub.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/bed.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/square_foot.svg" alt="">
+                        <p>840 sqft</p>
+                    </div>
+                </div>
+                <div class="rec">
+                    <img src="./images/San Diego.png " alt="" class="rec__img">
+                    <div class="rec__content">
+                        <h2 class="rec__heading">Cozy studio in Los Angeles</h2>
+                        <p class="rec__price">$ 1,200.00 USD</p>
+                    </div>
+                    <img class="rec-loc__img" src="./images/place.svg" alt="">
+                    <a class="rec__link" href="#">2263 Southlea, Los Angeles</a>
+                    <div class="rec__info">
+                        <img src="./images/bathtub.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/bed.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/square_foot.svg" alt="">
+                        <p>840 sqft</p>
+                    </div>
+                </div>
+                <div class="rec">
+                    <img src="./images/New York.png" alt="" class="rec__img">
+                    <div class="rec__content">
+                        <h2 class="rec__heading">Cozy studio in Los Angeles</h2>
+                        <p class="rec__price">$ 1,200.00 USD</p>
+                    </div>
+                    <img class="rec-loc__img" src="./images/place.svg" alt="">
+                    <a class="rec__link" href="#">2263 Southlea, Los Angeles</a>
+                    <div class="rec__info">
+                        <img src="./images/bathtub.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/bed.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/square_foot.svg" alt="">
+                        <p>840 sqft</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rec-line second-line">
+                <div class="rec">
+                    <img src="./images/Family los angeles.png" alt="" class="rec__img">
+                    <div class="rec__content">
+                        <h2 class="rec__heading">Cozy studio in Los Angeles</h2>
+                        <p class="rec__price">$ 1,200.00 USD</p>
+                    </div>
+                    <img class="rec-loc__img" src="./images/place.svg" alt="">
+                    <a class="rec__link" href="#">2263 Southlea, Los Angeles</a>
+                    <div class="rec__info">
+                        <img src="./images/bathtub.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/bed.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/square_foot.svg" alt="">
+                        <p>840 sqft</p>
+                    </div>
+                </div>
+                <div class="rec">
+                    <img src="./images/Las Vegas.png " alt="" class="rec__img">
+                    <div class="rec__content">
+                        <h2 class="rec__heading">Cozy studio in Los Angeles</h2>
+                        <p class="rec__price">$ 1,200.00 USD</p>
+                    </div>
+                    <img class="rec-loc__img" src="./images/place.svg" alt="">
+                    <a class="rec__link" href="#">2263 Southlea, Los Angeles</a>
+                    <div class="rec__info">
+                        <img src="./images/bathtub.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/bed.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/square_foot.svg" alt="">
+                        <p>840 sqft</p>
+                    </div>
+                </div>
+                <div class="rec">
+                    <img src="./images/San Diego story.png" alt="" class="rec__img">
+                    <div class="rec__content">
+                        <h2 class="rec__heading">Cozy studio in Los Angeles</h2>
+                        <p class="rec__price">$ 1,200.00 USD</p>
+                    </div>
+                    <img class="rec-loc__img" src="./images/place.svg" alt="">
+                    <a class="rec__link" href="#">2263 Southlea, Los Angeles</a>
+                    <div class="rec__info">
+                        <img src="./images/bathtub.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/bed.svg" alt="">
+                        <p>2</p>
+                        <img src="./images/square_foot.svg" alt="">
+                        <p>840 sqft</p>
+                    </div>
+                </div>
+            </div>
+            <div class="body-container__actions second-action">
+                <button class="body-container__btn">
+                    Explore properties
+                </button>
+                <a href="" class="body-container__link">
+                    Contact agent >
+                </a>
+            </div>
+            <div class="angle2">
+                <img src="./images/left-angle.svg" alt="">
+            </div>
+        </div>
+
+
+    </section>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
